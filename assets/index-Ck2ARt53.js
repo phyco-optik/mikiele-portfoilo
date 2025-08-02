@@ -41,7 +41,7 @@ Error generating stack: `+i.message+`
                      transition-all duration-300 ease-in-out
 
                      ${x?"h-screen opacity-100 pointer-events-auto":"h-0 opacity-0 pointer-events-none"}
-                   `,children:[h.jsx("button",{onClick:()=>k(!1),className:"absolute top-6 right-6 text-white text-3xl focus:outline-none cursor-pointer","aria-label":"Close Menu",children:"×"}),h.jsx("a",{href:"#home",onClick:()=>k(!1),className:`text-2xl font-semibold text-white my-4 transform transition-transform duration-300
+                   `,children:[h.jsx("button",{onClick:()=>k(!1),className:"absolute top-4 right-7 text-white text-3xl focus:outline-none cursor-pointer","aria-label":"Close Menu",children:"×"}),h.jsx("a",{href:"#home",onClick:()=>k(!1),className:`text-2xl font-semibold text-white my-4 transform transition-transform duration-300
                     ${x?"opacity-100 translate-y-0":"opacity-0 translate-y-5"}        
             `,children:"Home"}),h.jsx("a",{href:"#about",onClick:()=>k(!1),className:`text-2xl font-semibold text-white my-4 transform transition-transform duration-300
             ${x?"opacity-100 translate-y-0":"opacity-0 translate-y-5"}        
